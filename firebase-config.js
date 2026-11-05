@@ -3,7 +3,7 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-aut
 import { getFirestore } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyBWg1VEilkAu0Ay6iDqnvOfKNrivS-6DDs",
+  apiKey: "AIzaSyBWg1VEilkAu0Ay6iDqnvOfKNrivS-6DDs", //key para fins educacionais e demonstrativos
   authDomain: "hackathon-000.firebaseapp.com",
   projectId: "hackathon-000",
   storageBucket: "hackathon-000.firebasestorage.app",
