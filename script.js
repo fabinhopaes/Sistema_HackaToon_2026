@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (window.lifeFitCloudSync?.signOut) await window.lifeFitCloudSync.signOut();
       localStorage.removeItem('lifefit_current_user');
       window.location.href = window.location.pathname.includes('/lifefit/')
-        ? '../login.html'
-        : 'login.html';
+        ? '../loginecadastro.html?modo=login'
+        : 'loginecadastro.html?modo=login';
     } catch (error) {
       console.error('Não foi possível encerrar a sessão Life Fit:', error);
       window.alert('Não foi possível encerrar a sessão com segurança. Verifique a conexão e tente novamente.');
@@ -1705,8 +1705,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (item.actionType === 'profile') document.querySelector('.nav-link[data-tab="profile"]').click();
         if (item.actionType === 'login') {
           window.location.href = window.location.pathname.includes('/lifefit/')
-            ? '../login.html'
-            : 'login.html';
+            ? '../loginecadastro.html?modo=login'
+            : 'loginecadastro.html?modo=login';
         }
       });
 
